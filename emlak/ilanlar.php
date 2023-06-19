@@ -18,11 +18,19 @@
         #hakkinda{margin-right: 1.4vw;}
         #ara{width: 20vw; height: 2vh; border-radius: 1vw; margin-top: 2%; margin-left: 33%;}
         
-        .filtre{height: 86.8vh; width: 10vw; padding: 0.5%; background-color: #E3E5E6;}
+        .filtre{height: 86.8vh; width: 10vw; padding: 0.5%; background-color: #E3E5E6; float: left;}
         #site, h4{margin: 3px; margin-top: 1vw;}
         .filtre select{width: 9.5vw; height: 3vh;}
         #min, #max{width: 4vw;}
-        p{margin: 3px; }
+        .filtre p{margin: 3px; }
+
+        .ilan, .ilanYatay{border: 1px solid red;}
+        .ilan{width: 10vw; float: left; margin: 2%; padding: 0.3%;}
+        .ilan img{width: 7vw; margin-left: 1.5vw;}
+        h4, p{margin: 0.2%; word-break: break-word;}
+
+        .ilanYatay{width: 18vw; height: 19vh; top: 6vw; margin-left: 11vw;}
+        .ilanYatay img{width: 7vw; float: left; margin-right: 1vh;}
     </style>
 </head>
 <body>
@@ -67,6 +75,39 @@
             <p><input type="checkbox" name="bati" id="bati">Batı</p>
             <p><input type="checkbox" name="kuzey" id="kuzey">Kuzey</p>
             <p><input type="checkbox" name="guney" id="guney">Güney</p>
+        </div>
+        <div>
+            <div class="ilan">
+                <img src="kedyy.jpg" alt="">
+                <h4>Evaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
+                <h4>3000ytl</h4>
+                <p>İlan Tarihi:</p>
+                <p>İl/İlçe</p>
+            </div>
+
+            <div class="ilan">
+                <img src="kedyy.jpg" alt="">
+                <h4>Ev</h4>
+                <h4>4000ytl</h4>
+                <p>İlan Tarihi:</p>
+                <p>İl/İlçe</p>
+            </div>
+
+            <div class="ilan">
+                <img src="kedyy.jpg" alt="">
+                <h4>Ev</h4>
+                <h4>4000ytl</h4>
+                <p>İlan Tarihi:</p>
+                <p>İl/İlçe</p>
+            </div>
+
+            <div class="ilan">
+                <img src="kedyy.jpg" alt="">
+                <h4>Ev</h4>
+                <h4>4000ytl</h4>
+                <p>İlan Tarihi:</p>
+                <p>İl/İlçe</p>
+            </div>
         </div>
     </div>
 </body>

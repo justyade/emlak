@@ -24,7 +24,7 @@
         #ev{width: 36vw;}
         #aciklama{width: 35.9vw; float: left; margin-top: 2%;}
         #aciklama p{margin: 0; border-top: 1px solid black; padding: 0.5%;}
-        #baslik{width: 3.3vw; padding: 0.8%; margin: 0; border: 1px solid grey; border-top-left-radius: 0.8vw; border-top-right-radius: 0.8vw; border-bottom: none; background-color: #1221;}
+        #baslik{padding: 0.8%; margin: 0; border: 1px solid grey; border-top-left-radius: 0.8vw; border-top-right-radius: 0.8vw; border-bottom: none; background-color: #1221;}
 
         #sag{width: 20vw; float: right;}
 

@@ -31,7 +31,7 @@
         #icerik{margin-left: 12.5vw; margin-top: 11vh;}
         .ilan, .ilanYatay{border: 1px solid red;}
         .ilan{width: 11vw; float: left; margin: 1.5%; padding: 0.3%;}
-        .ilan img{max-width: 11vw; max-height: 20vh;}
+        .ilan img{max-width: 11vw; max-height: 20vh; display: block; margin-left: auto; margin-right: auto;}
         .ilan h4, .ilan p{margin: 1%; word-break: break-word;}
         .ilan:hover{background-color: #1221;}
 
